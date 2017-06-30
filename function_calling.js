@@ -23,3 +23,9 @@ const myBoundTurnOn = turnOn.myBind(lamp);
 
 boundTurnOn("large"); // should say "Turning on a lamp"
 myBoundTurnOn("large"); // should say "Turning on a lamp"
+
+// this.func.bind(this)
+//
+// equivalent to
+//
+// ()=>this.func
